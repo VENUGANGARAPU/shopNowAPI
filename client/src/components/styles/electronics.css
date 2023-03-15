@@ -1,0 +1,47 @@
+.main-electronicsCont{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    width: 100%;
+    background-color: rgb(223, 227, 227);
+}
+
+.filter-conatiner{
+    background-color: rgb(252, 245, 245);
+    margin: 20px;
+    height: max-content;
+}
+
+
+@media screen and (max-width :769px) {
+    .main-electronicsCont{
+        display: flex;
+        flex-direction: column;
+    }
+    .filter-conatiner{
+        margin: 0px;
+        position: fixed;
+        visibility:hidden;
+    }
+    .activeSidebar{
+        visibility: visible;
+        width: 100vw;
+    }
+    
+}
+
+@media screen and (min-width :769px) and (max-width:1023px){
+    .main-electronicsCont{
+        display: flex;
+        flex-direction: column;
+    }
+    .filter-conatiner{
+        margin: 0px;
+        position: fixed;
+        visibility:hidden;
+    }
+    .activeSidebar{
+        visibility: visible;
+        width: 100vw;
+    }
+
+}

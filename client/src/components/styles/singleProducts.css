@@ -1,0 +1,39 @@
+
+
+.singleProduct-items p{
+    font-size: smaller;
+    margin:2px;
+    color: black;
+    text-align: left;
+}
+.singleProduct-items{
+    display: grid;
+    padding:10px 20px 0px;
+}
+
+
+.singleProduct-main{
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.singleProduct-main img{
+    width: 100%;
+    height: 30vh;
+}
+
+@media screen and (max-width:769px){
+    .singleProduct-main img{
+        width: 80%;
+        height: 10vh;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1023px){
+    .singleProduct-main img{
+        width: 70%;
+        height: 20vh;
+    }
+}
+

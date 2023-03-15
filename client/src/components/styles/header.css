@@ -1,0 +1,153 @@
+
+
+.headers{
+    background-color: #7286D3;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main-header{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0px 50px;
+}
+.main-header h1{
+    font-family: "Great Vibes", cursive;
+    font-size:xx-large;
+    padding: 0px;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.about p:hover{
+    color: rgb(38, 15, 40);
+}
+
+.about p{
+    padding:0px 20px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.button-toggle i{
+    padding:0px 20px;
+}
+
+.links{
+    text-decoration: none;
+    position: relative;
+}
+.cartValue{
+    position: absolute;
+    top:-1px;
+    right: 3px;
+}
+.cartss p{
+    font-size:smaller;
+    color:rgb(111, 33, 33);
+    font-weight: 600;
+    
+}
+
+.button-toggle{
+    display: none;
+}
+
+@media screen and (max-width:769px) {
+  
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        position:fixed;
+        top:45px;
+        width: 300px;
+        right:-300px;
+        height: 100vh; 
+        z-index: 1;
+        background-color: #C9EEFF;
+    }
+    .activeSlide{
+        right: 0px;
+    }
+    .button-toggle{
+        margin-top: 10px;
+        display: block;
+    }
+  .navBar{
+    display: flex;
+  }
+  .about p{
+    padding:0px 20px;
+    color: #7286D3;
+    font-size: large;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 0px;
+}
+.about p:hover{
+    font-size: x-large;
+}
+.cartss{
+    padding: 20px;
+}
+.main-header{
+    padding: 0px 20px;
+
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .main-header{
+        padding: 0px 30px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        position:fixed;
+        top:45px;
+        width: 300px;
+        right:-300px;
+        height: 100vh; 
+        z-index: 1;
+        background-color: #C9EEFF;
+    }
+    .activeSlide{
+        right: 0px;
+    }
+    .button-toggle{
+        margin-top: 10px;
+        display: block;
+    }
+  .navBar{
+    display: flex;
+  }
+  .about p{
+    padding:0px 20px;
+    color: #7286D3;
+    font-size: large;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 0px;
+}
+.about p:hover{
+    font-size: x-large;
+}
+.cartss{
+    padding: 20px;
+}
+
+}
+

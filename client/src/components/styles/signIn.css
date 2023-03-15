@@ -1,0 +1,45 @@
+
+.main-signin{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin:0 auto;
+    padding: 10px;
+    border: 2px solid rgb(244, 240, 240);
+    border-radius: 5px;
+    background-color:white;
+}
+.main-signin form{
+    margin-left: 0px;
+    padding-left: 20px;
+}
+.main-signin input{
+    width: 15rem;
+    height: 1.3rem;
+}
+.main-signin h2{
+    margin-left: 20px;
+    margin-bottom:0px ;
+}
+.signin{
+    text-align: left;
+}
+.middle{
+    text-align: left;
+
+}
+.middle p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.main-signin button{
+    margin: 10px 0px;
+    width: 15rem;
+    height: 1.5rem;
+    background-color: rgb(231, 160, 75);
+    border-color: rgb(231, 160, 75);
+}

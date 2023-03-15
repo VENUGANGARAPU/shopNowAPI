@@ -1,0 +1,25 @@
+
+.footer{
+    margin: 0 auto;
+    display: grid;
+    background-color: #7286D3;
+}
+
+
+.footer-main{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+.footer-main p{
+    color: rgb(27, 10, 10);
+}
+.list{
+    margin-top :1rem;
+}
+ul{
+   list-style-type: none;
+   text-align:justify;
+   margin-top: 8px;
+}

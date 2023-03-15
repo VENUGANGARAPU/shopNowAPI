@@ -1,0 +1,53 @@
+.order{
+    margin: 0 auto;
+    height: 100vh;
+}
+.orders-main{
+    display: grid;
+    text-align: center;
+    background-color:white;
+    margin:  0rem 3rem 0rem;
+}
+
+.orders-main1{
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    justify-content: space-between;
+}
+.orders-main2{
+    margin-left: 1rem;
+}
+.order-productDetails{
+    margin-left: 2rem;
+    text-align: left;
+}
+.orders-main img{
+    width:100%;
+}
+.orders-main p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.orders-article{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin:1rem;
+}
+
+/* ordersPage */
+.form-orders{
+    display: flex;
+    justify-content: space-between;
+}
+.orderPage{
+    margin:50px auto;
+    align-items:center;
+    display:grid;
+    justify-content:center;
+    background-color: white;
+    width:300px;
+    padding: 20px;
+}
+.form-orders input{
+    margin-bottom: 10px;
+}

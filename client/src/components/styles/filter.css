@@ -1,0 +1,33 @@
+.filter p{
+    margin-top: 0px;
+}
+.filter hr{
+    height: 1px;;border-width:0;color:rgb(223, 227, 227);background-color:rgb(223, 227, 227);
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter button{
+    border: none;
+    text-align: left;
+    margin-bottom: 2px;
+    font-size:20px;
+    background-color: unset;
+    color: rgb(93, 102, 102);
+}
+
+select{
+    border: unset;
+    background-color: unset;
+    width:15rem;
+    border-color: aliceblue;
+    font-size: 15px;
+    height: 30px;
+}
+option{
+    border-color: azure;
+}
